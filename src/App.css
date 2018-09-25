@@ -1,0 +1,68 @@
+.App {
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: #222;
+}
+
+.cpuCard {
+    align-items: center;
+    background-color: #660000;
+    border-style: solid;
+    border-radius: 0.25em;
+    border-width: thin;
+    display: inline-flex;
+    height: 4em;
+    justify-content: center;
+    margin: 0.75em;
+    width: 3em;
+}
+
+.cpuZone [stood=true;] {
+    opacity: 0.7;
+}
+
+.cardZone {
+    background-image: url("./images/sci_fi_texture_1.png");
+    margin: auto;
+    max-width: 600px;
+    width: 90%;
+}
+
+.Head {
+   background-color: #222;
+    height: 7.5%;
+    padding: 20px;
+    color: white;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    box-shadow: 0 0 5px 1px red;
+}
+
+.Main {
+    /* margin: auto;
+    max-width: 600px;
+    width: 90%; */
+}
+
+.playerCard {
+    align-items: center;
+    background-color: #00004d;
+    border-style: solid;
+    border-radius: 0.25em;
+    border-width: thin;
+    display: inline-flex;
+    height: 4em;
+    justify-content: center;
+    margin: 0.75em;
+    width: 3em;
+}
+
+.playerZone [stood=true;] {
+    opacity: 0.7;
+}
